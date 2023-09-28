@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.home {
+    height:calc(100dvh - 60px);
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A1CDA8;
+    color: #C5E7E2;
+}
+
+
+.img img {
+    max-width: 400px;
+    min-width: 200px;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+.detail_container{
+    display:flex;
+    flex-direction: column;
+    background-color: #627264;
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+p{
+    max-width: 100%;
+}
+
+    
