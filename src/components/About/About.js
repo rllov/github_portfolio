@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profileImage2 from "../../../public/profile.png";
+import profileImage2 from "../../images/ProfilePic2.png";
 
 const About = () => {
   return (
@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-container">
         <div className="Left">
           <div className="img_container">
-            <img src={profileImage2} alt="me2"></img>
+            <img src={profileImage2} alt="Second image of me"></img>
           </div>
         </div>
         <div className="Right">

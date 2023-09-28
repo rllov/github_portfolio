@@ -1,13 +1,13 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import profileImage from "../../../public/profile.png";
+import profileImage from "../../images/profile.png";
 import "./Home.css";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="img">
-        <img src={profileImage} alt="me"></img>
+        <img src={profileImage} alt="Image of me"></img>
       </div>
 
       <div className="detail_container">
