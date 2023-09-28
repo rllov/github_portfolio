@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-container">
         <div className="Left">
           <div className="img_container">
-            <img src={profileImage2} alt="Second image of me"></img>
+            <img src={profileImage2} alt="me too" />
           </div>
         </div>
         <div className="Right">
