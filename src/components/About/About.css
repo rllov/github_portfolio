@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.about-container{
+    height:calc(100dvh - 60px);
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #A1CDA8;
+    color: #C5E7E2;
+    overflow: center;
+}
+
+.Left{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 50%;
+}
+.Left .img_container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Left .img_container img{
+    height:90%;
+}
+
+.Right{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.details {
+    padding:10px;
+    margin:10px;
+    color:#627264;
+    font-size: 20px;
+}
+
+.bottom_right{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.skills{
+    background-color: #627264;
+    border-radius: 10px;
+    padding:15px;
+    margin: 10px;
+}
+.skills ul {
+    margin-top: 10px;
+}
+.skills ul li {
+    list-style: inside;
+    font-size: 15px;
+}
+
+.interests{
+    background-color: #627264;
+    border-radius: 10px;
+    padding:15px;
+    margin: 10px;
+}
+.interests table {
+    font-size: 15px;
+}
+.interests td {
+    padding-left: 50px;
+}
+
+.courses{
+    background-color: #627264;
+    border-radius: 10px;
+    padding:15px;
+    margin: 10px;
+}
+
+
+
+
