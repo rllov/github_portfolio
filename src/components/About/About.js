@@ -26,11 +26,10 @@ const About = () => {
               <h1>
                 <u>Skills</u>
               </h1>
-              <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>Java and Python</li>
-                <li>ReactJS, React Native</li>
-              </ul>
+              <p>
+                HTML, CSS, JavaScript, Java and Python <br /> ReactJS and React
+                Native
+              </p>
             </div>
             <div className="interests">
               <h1>
@@ -38,7 +37,7 @@ const About = () => {
               </h1>
               <table>
                 <tr>
-                  <th>Foods</th> <td>Noodle Sup Bar's Beef Brisket Pho</td>
+                  <th>Foods</th> <td>Súp Noodle Bar's Beef Brisket Pho</td>
                 </tr>
                 <tr>
                   <th>Anime</th> <td>Haikyuu</td>

@@ -21,8 +21,9 @@
   width: 40%;
 }
 .Left img {
-  width: 90%;
+  width: 100%;
   height: auto;
+  margin: 10px;
 }
 .Right {
   display: flex;
@@ -38,7 +39,9 @@
   justify-content: center;
   width: 80%;
   font-size: 1.4rem;
-  padding: 10px;
+}
+
+.details p {
   margin: 10px;
 }
 
