@@ -21,15 +21,21 @@ const About = () => {
               develop my skills.
             </p>
           </div>
-          <div className="bottom_right">
+          <div className="mid_right">
             <div className="skills">
               <h1>
                 <u>Skills</u>
               </h1>
-              <p>
-                HTML, CSS, JavaScript, Java and Python <br /> ReactJS and React
-                Native
-              </p>
+              <ul>
+                <li> HTML, CSS, JavaScript</li> <li>Java and Python </li>{" "}
+              </ul>
+              <h1>
+                <u>Technologies</u>
+              </h1>
+              <ul>
+                <li> VS code</li> <li>Git/Github</li>
+                <li>ReactJS and React Native</li>
+              </ul>
             </div>
             <div className="interests">
               <h1>
@@ -43,10 +49,18 @@ const About = () => {
                   <th>Anime</th> <td>Haikyuu</td>
                 </tr>
                 <tr>
-                  <th>Games</th> <td>Valorant</td>
+                  <th>Games</th> <td>Valorant, Overwatch</td>
+                </tr>
+                <tr>
+                  <th>Hobbies</th> <td>Rock Climbing, Overwatch</td>
+                </tr>
+                <tr>
+                  <th>Drinks</th> <td>Peppermint Coffee Latte</td>
                 </tr>
               </table>
             </div>
+          </div>
+          <div className="bottom_right">
             <div className="courses">
               <h1>
                 <u>Relevant Courses</u>

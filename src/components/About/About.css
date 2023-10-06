@@ -21,7 +21,7 @@
   width: 40%;
 }
 .Left img {
-  width: 100%;
+  width: 75%;
   height: auto;
   margin: 10px;
 }
@@ -30,26 +30,40 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 50%;
+  width: 60%;
+  margin-right: 60px;
 }
 
 .Right .details {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  width: 100%;
   font-size: 1.4rem;
-}
-
-.details p {
   margin: 10px;
 }
 
-.Right .bottom_right {
+.details p {
   display: flex;
-  width: 100%;
-  flex-direction: row;
+  padding: 10px;
 }
+
+.mid_right {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.skills {
+  width: 30%;
+}
+.interests {
+  width: 70%;
+}
+
+.Right .bottom_right {
+  width: 100%;
+}
+
 .skills,
 .interests,
 .courses {
@@ -59,10 +73,17 @@
   padding: 10px;
   margin: 10px;
 }
+
+.skills,
+.interests,
+.courses,
+li {
+  font-size: 20px;
+}
+
 @media screen and (max-width: 767px) {
   .about-container {
     flex-direction: column; /* Stack items on top of each other for smaller screens */
-    height: auto; /* Adjust height to fit content */
   }
 
   .Left,
@@ -74,6 +95,19 @@
     width: 100%; /* Make the image take up full width */
   }
 
+  .Right {
+    margin: 0px;
+  }
+
+  .Right .mid_right {
+    width: 75%;
+    flex-direction: column;
+    margin-right: 0px;
+  }
+
+  .skills {
+    width: 100%;
+  }
   .Right .details,
   .Right .bottom_right {
     flex-direction: column;
