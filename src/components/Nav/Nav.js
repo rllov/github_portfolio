@@ -6,27 +6,56 @@ import "./Nav.css";
 const Nav = () => {
   return (
     <>
-      <nav className="navbar">
-        <div className="container">
-          <div className="logo">
-            <Link to="/about">RL</Link>
+      <div className="container-fluid  topnav-container">
+        <div className="row row-container align-items-center">
+          {/* Left Side (1 column) */}
+          <div className="col-8 col-sm-6">
+            <div className="logo">
+              <Link
+                to="/about"
+                className="text-decoration-none  text-reset link"
+              >
+                RL
+              </Link>
+            </div>
           </div>
-          <div className="nav-elements">
-            <ul>
-              <Link to="/">
-                <li>Home</li>
-              </Link>
-              <Link to="/about">
-                <li>About</li>
-              </Link>
-            
-              <Link to="/contact">
-                <li>Contact</li>
-              </Link>
-            </ul>
+
+          {/* Right Side (3 columns) */}
+          <div className="col" align="center">
+            <div className="nav-elements">
+              <ul className="list-unstyled">
+                <li>
+                  <Link to="/" className="text-decoration-none link">
+                    Home
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col" align="center">
+            <div className="nav-elements">
+              <ul className="list-unstyled">
+                <li>
+                  <Link to="/about" className="text-decoration-none link">
+                    About
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col" align="center">
+            <div className="nav-elements">
+              <ul className="list-unstyled">
+                <li>
+                  <Link to="/contact" className="text-decoration-none link">
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
     </>
   );
 };
