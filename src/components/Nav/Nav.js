@@ -11,6 +11,17 @@ const Nav = () => {
           <Link className="navbar-brand" to="/about" id="link">
             RL
           </Link>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent1">
             <ul className="navbar-nav ms-auto">
