@@ -30,7 +30,7 @@ const About = () => {
                   <u>Skills</u>
                 </h1>
                 <ul>
-                  <li> HTML, CSS, JavaScript</li> <li>Java and Python </li>{" "}
+                  <li>HTML, CSS, JavaScript</li> <li>Java and Python </li>
                 </ul>
                 <h1>
                   <u>Technologies</u>
@@ -55,7 +55,7 @@ const About = () => {
                     <th>Games</th> <td>Valorant, Overwatch</td>
                   </tr>
                   <tr>
-                    <th>Hobbies</th> <td>Rock Climbing, Overwatch</td>
+                    <th>Hobbies</th> <td> Rock Climbing</td>
                   </tr>
                   <tr>
                     <th>Drinks</th> <td>Peppermint Coffee Latte</td>
