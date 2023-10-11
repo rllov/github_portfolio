@@ -6,56 +6,33 @@ import "./Nav.css";
 const Nav = () => {
   return (
     <>
-      <div className="container-fluid  topnav-container">
-        <div className="row row-container align-items-center">
-          {/* Left Side (1 column) */}
-          <div className="col-8 col-sm-6">
-            <div className="logo">
-              <Link
-                to="/about"
-                className="text-decoration-none  text-reset link"
-              >
-                RL
-              </Link>
-            </div>
-          </div>
+      <nav className="navbar navbar-expand-lg ">
+        <div className="container-fluid " id="top-menu">
+          <Link className="navbar-brand" to="/about" id="link">
+            RL
+          </Link>
 
-          {/* Right Side (3 columns) */}
-          <div className="col" align="center">
-            <div className="nav-elements">
-              <ul className="list-unstyled">
-                <li>
-                  <Link to="/" className="text-decoration-none link">
-                    Home
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col" align="center">
-            <div className="nav-elements">
-              <ul className="list-unstyled">
-                <li>
-                  <Link to="/about" className="text-decoration-none link">
-                    About
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col" align="center">
-            <div className="nav-elements">
-              <ul className="list-unstyled">
-                <li>
-                  <Link to="/contact" className="text-decoration-none link">
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <Link className="nav-link active" id="link" to="/">
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" id="link" to="/about">
+                  About
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" id="link" to="/contact">
+                  Contact
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
+      </nav>
     </>
   );
 };

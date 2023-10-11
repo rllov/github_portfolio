@@ -8,11 +8,13 @@ const About = () => {
     <>
       <div className="container-fluid" id="main">
         <div className="row">
-          <div className="col-lg-4 col-sm-6 Left" align="center">
+          <div className="col-lg-1 col-sm-0"></div>
+
+          <div className="col-lg-4 col-md-6 Left" align="center">
             <img src={pfp2} class="img-fluid "></img>
           </div>
-          <div className="col-1"></div>
-          <div className="col-lg-6 col-sm-6 Right">
+          <div className="col-lg-1 col-sm-0"></div>
+          <div className="col-lg-5 col-md-6 Right">
             <div className="row" id="rightSide">
               <div className="col" id="details">
                 I'm a current standing junior Computer Science student at
@@ -81,7 +83,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="col-1"></div>
+          <div className="col-lg-1 col-sm-0"></div>
         </div>
       </div>
     </>

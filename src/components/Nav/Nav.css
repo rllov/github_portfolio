@@ -3,18 +3,21 @@
   padding: 0px;
 }
 
-.topnav-container {
-  height: 100%;
+.navbar {
+  height: 10vh;
   background: #627264;
 }
 
-.logo,
-.link {
+#link {
   color: #a1cda8;
   font-weight: 600;
   margin: 10px;
   font-size: 36px;
 }
 
-.link .active {
+#top-menu a:hover {
+  color: #c5e8c9;
+}
+#top-menu a:focus {
+  color: #9cad9e !important;
 }
