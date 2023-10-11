@@ -11,20 +11,19 @@ const About = () => {
           <div className="col-lg-4 col-sm-6 Left" align="center">
             <img src={pfp2} class="img-fluid "></img>
           </div>
-          <div className="col-lg-8 col-sm-6 Right">
-            <div className="row">
-              <div className="col-12" id="details">
-                <p>
-                  I'm a current standing junior Computer Science student at
-                  California Polytechnic University of Pomona. As a passionate
-                  front end developer, I am always looking to learn and grow in
-                  the field. With a strong foundation in HTML, CSS, JS, and
-                  Java, I am excited to take on new challenges and continue to
-                  develop my skills.
-                </p>
+          <div className="col-1"></div>
+          <div className="col-lg-6 col-sm-6 Right">
+            <div className="row" id="rightSide">
+              <div className="col" id="details">
+                I'm a current standing junior Computer Science student at
+                California Polytechnic University of Pomona. As a passionate
+                front end developer, I am always looking to learn and grow in
+                the field. With a strong foundation in HTML, CSS, JS, and Java,
+                I am excited to take on new challenges and continue to develop
+                my skills.
               </div>
             </div>
-            <div className="row">
+            <div className="row" id="rightSide">
               <div className="col " id="skills">
                 <h1>
                   <u>Skills</u>
@@ -63,7 +62,7 @@ const About = () => {
                 </table>
               </div>
             </div>
-            <div className="row">
+            <div className="row" id="rightSide">
               <div className="col" id="courses">
                 <h1>
                   <u>Relevant Courses</u>
@@ -82,6 +81,7 @@ const About = () => {
               </div>
             </div>
           </div>
+          <div className="col-1"></div>
         </div>
       </div>
     </>
