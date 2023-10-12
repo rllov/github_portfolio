@@ -7,18 +7,15 @@ const About = () => {
   return (
     <>
       <div className="container-fluid" id="main">
-        <div className="row">
-          <div className="col-lg-1 col-sm-0"></div>
-
-          <div className="col-lg-4 col-md-6 Left" align="center">
+        <div className="row justify-content-around">
+          <div className="col-lg-4 col-md-6 col-sm-6 Left" align="center">
             <img src={pfp2} class="img-fluid "></img>
           </div>
-          <div className="col-lg-1 col-sm-0"></div>
-          <div className="col-lg-5 col-md-6 Right">
+          <div className="col-lg-6 col-md-6 col-sm-6 justify-content-center Right">
             <div className="row" id="rightSide">
               <div className="col" id="details">
                 I'm a current standing junior Computer Science student at
-                California Polytechnic University of Pomona. As a passionate
+                California Polytechnic State University, Pomona. As a passionate
                 front end developer, I am always looking to learn and grow in
                 the field. With a strong foundation in HTML, CSS, JS, and Java,
                 I am excited to take on new challenges and continue to develop
@@ -83,7 +80,6 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-1 col-sm-0"></div>
         </div>
       </div>
     </>
