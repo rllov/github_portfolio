@@ -71,7 +71,7 @@ const About = () => {
                   <li>Intro Comp Info Tech, Introduction to Programming</li>
                   <li>Python Programming I, Python Programming II</li>
                   <li>Intro. to C++ Programming, Adv. C++ Programming</li>
-                  <li>Pre-Calculus, Calculus I, Calculus II, Calculus 3</li>
+                  <li>Pre-Calculus, Calculus I, Calculus II, Calculus III</li>
                   <li>
                     Data Structure Advanced Programming, Discrete Structures
                   </li>
