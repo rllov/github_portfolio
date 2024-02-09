@@ -2,12 +2,11 @@
   margin: 0px;
   padding: 0px;
 }
-#main {
-  background-color: #a1cda8;
-  min-height: 88vh;
-  color: #627264;
-}
 
+#main {
+  background-color: var(--background-color);
+  height: calc(100vh-80px);
+}
 img {
   width: fit-content;
   margin-top: 20px;
@@ -21,8 +20,7 @@ img {
 #skills,
 #interests,
 #courses {
-  background: #627264;
-  color: #a1cda8;
+  background: var(--foreground-color);
   border-radius: 10px;
   padding: 10px;
   margin: 10px;

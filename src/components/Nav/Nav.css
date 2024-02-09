@@ -1,26 +1,93 @@
-* {
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-color);
+  transition: background-color 0.25s ease-in-out;
+  height: var(--nav-height);
+}
+
+nav .title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
   margin: 0px;
   padding: 0px;
 }
-
-.navbar {
-  height: 12vh;
-  background: #627264;
+nav ul li {
+  list-style: none;
 }
 
-#link {
-  color: #a1cda8;
-  font-weight: 600;
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 1.5rem;
   margin: 10px;
-  font-size: 36px;
+}
+nav ul li a:hover {
+  color: var(--secondary-text-color);
+  background-color: var(--hover-color);
+  transition: 0.5s;
 }
 
-#top-menu a:hover {
-  color: #c5e8c9;
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
 }
-#top-menu a:focus {
-  color: #9cad9e !important;
+
+nav .menu span {
+  height: 0.5rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.2rem;
 }
-#navbarTogglerDemo01 {
-  background-color: #627264;
+
+@media (max-width: 480px) {
+  nav .menu {
+    display: flex;
+    flex: start;
+  }
+  nav {
+    flex-direction: column;
+    align-items: start;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+    background-color: var(--linkbg-color);
+  }
+  nav ul.open {
+    display: flex;
+    z-index: 9999;
+  }
+  nav ul li {
+    width: 100%;
+    text-align: center;
+  }
+  nav ul li a {
+    margin: 0.2rem 0.5rem;
+  }
+  nav ul li a:hover {
+    color: var(--secondary-text-color);
+    background-color: var(--hover-color);
+    transition: 0.5s;
+  }
 }

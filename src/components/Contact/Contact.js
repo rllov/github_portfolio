@@ -1,33 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { GitHub, Instagram, LinkedIn } from "@mui/icons-material";
 import "./Contact.css";
+import pfp from "../../images/profile.png";
 
 const Contact = () => {
   return (
-    <div className="col-12 Contact">
-      <div className="col-12 title " align="center">
-        <p>Feel free to connect with me on socials!</p>
-      </div>
+    <div className="social_container">
+      <div id="social_card">
+        <div className="social_card_info">
+          <div id="pfp">
+            <img src={pfp} alt="Ryan Lov" />
+          </div>
+          <div id="name">Ryan Lov</div>
+          <div id="location">El Monte, California</div>
+          <div id="bio">Motivated Front-end developer</div>
+        </div>
+        <div className="social_card_links">
+          <Link to="https://github.com/rllov" target="_blank">
+            <div id="links">Github</div>
+          </Link>
 
-      <div className="links">
-        <Link to="https://github.com/rllov" fill="filled" target="_blank">
-          <GitHub style={{ fontSize: 40, color: "#333" }} />
-        </Link>
-        <Link to="https://www.linkedin.com/in/ryanlov/" target="_blank">
-          <LinkedIn style={{ fontSize: 40, color: "#0288D1" }} />
-        </Link>
-        <Link to="https://www.instagram.com/ryan_lov168/" target="_blank">
-          <Instagram
-            style={{
-              fontSize: 40,
-            }}
-            sx={{
-              color:
-                "radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)",
-            }}
-          />
-        </Link>
+          <Link to="https://www.linkedin.com/in/ryanlov/" target="_blank">
+            <div id="links">LinkedIn</div>
+          </Link>
+          <Link to="https://www.instagram.com/ryan_lov168/" target="_blank">
+            <div id="links">Instagram</div>
+          </Link>
+        </div>
       </div>
     </div>
   );

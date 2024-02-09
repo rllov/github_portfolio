@@ -5,7 +5,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="row home">
+    <div className="home">
       <div className="img">
         <img src={profileImage} alt="me" />
       </div>
